@@ -1,0 +1,15 @@
+<% form_tag({:action => :create}, :multipart => true) do %>
+  <div>
+     <%= label_tag :bucket, 'Bucket name: ' %>
+  </div>
+  <div>
+  	<%= text_field_tag :bucket %>
+  </div>
+  <div>
+  	<%= file_field_tag 'picture' %>
+  </div>
+  <div>
+    <%= submit_tag 'Upload' %>
+  </div>  
+<% end %>
+
