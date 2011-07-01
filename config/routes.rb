@@ -12,10 +12,11 @@ Pic::Application.routes.draw do
 
   resources :login
   resources :bucket
+  resources :upload
   
   root :to => "login#index"
 
-
+  #match 'upload' => 'upload#create'
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
 
