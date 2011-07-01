@@ -1,4 +1,11 @@
+0.0.2 features
+
+- basic file upload /upload link
+- no support yet for EU buckets
+
 0.0.1 features
 
 - log in to AWS S3
 - list your buckets
+
+
