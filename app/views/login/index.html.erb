@@ -1,0 +1,7 @@
+ <% form_tag :action => :create do %>
+  <%= label_tag :access_key, 'Access_key: ' %><br>
+  <%= text_field_tag :access_key %><br>
+  <%= label_tag :secret_key, 'Secret_key: ' %><br>
+  <%= text_field_tag :secret_key %><br>
+  <%= submit_tag 'Login' %>
+ <% end %>
